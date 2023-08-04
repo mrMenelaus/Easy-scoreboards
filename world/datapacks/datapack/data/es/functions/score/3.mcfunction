@@ -1,3 +1,3 @@
-$scoreboard players reset $(name)$(old)$(name2) $(objective)
-$scoreboard players set $(name)$(new)$(name2) $(objective) $(value)
+$scoreboard players reset $(name_pre)$(old)$(name_post) $(objective)
+$scoreboard players set $(name_pre)$(new)$(name_post) $(objective) $(value)
 $scoreboard players operation #$(id)2 info = #$(id) info
