@@ -1,0 +1,1 @@
+function es:score/0
